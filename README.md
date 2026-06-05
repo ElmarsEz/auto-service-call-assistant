@@ -1,54 +1,99 @@
-# Auto Service Call Assistant
+# Car Service Management System
 
 ## Overview
 
-Auto Service Call Assistant is a software tool designed to help auto service managers record and organize customer requests more efficiently.
+Car Service Management System is a software solution designed for small automotive repair workshops and service centers.
 
-During phone calls, managers often need to quickly write down vehicle details and problem descriptions. This process is manual and error-prone. The system aims to automate this by converting call information into structured data.
+The system helps service managers organize customers, vehicles, and repair orders in a structured way. Instead of relying on paper notes or spreadsheets, users can store all service-related information in a centralized system.
 
 ---
 
 ## Problem
 
-Auto service managers receive many calls from clients describing issues with their vehicles. During these calls, they must manually record:
+Many small auto repair workshops still manage customer and vehicle information manually using paper records, spreadsheets, or messaging applications.
 
-* vehicle details
-* problem description
-* requested service
+This approach can lead to:
 
-This process is inefficient and can lead to missing or incorrect information.
+* Lost customer information
+* Difficulties tracking repair history
+* Poor organization of repair orders
+* Time-consuming searches for vehicle records
 
 ---
 
 ## Target Users
 
 * Auto service managers
-* Small repair workshops
+* Repair workshop owners
 * Automotive service centers
 
 ---
 
 ## Proposed Solution
 
-The system will help managers by converting customer call information into structured records.
+The system provides a centralized platform for managing:
 
-Additionally, when a vehicle registration number is provided, the system can retrieve available technical data about the vehicle (such as VIN, engine type, or gearbox) from an external data source.
+* Customers
+* Vehicles
+* Repair orders
+* Repair status tracking
+* Service history
+
+This allows workshop staff to quickly access vehicle information and monitor repair progress.
 
 ---
 
 ## Core Features
 
-* Audio-to-text conversion of customer calls
-* Extraction of key information from conversations
-* Vehicle lookup using registration number
-* Automatic creation of structured service records
-* Storage of data in a table or database
+### Customer Management
+
+* Create customer records
+* Edit customer information
+* View customer history
+
+### Vehicle Management
+
+* Register customer vehicles
+* Store vehicle details
+* Link vehicles to owners
+
+### Repair Order Management
+
+* Create repair orders
+* Track repair status
+* Store repair descriptions
+* Record repair costs
+
+### Search Functionality
+
+* Search by customer name
+* Search by phone number
+* Search by vehicle registration number
 
 ---
 
-## Expected Benefits
+## Technology Stack
 
-* Reduce manual work
-* Improve accuracy of service records
-* Save time during customer communication
-* Provide better organization of service data
+* Python
+* Flask
+* SQLite
+* HTML/CSS
+* Bootstrap
+
+---
+
+## Future Improvements
+
+Potential future enhancements include:
+
+* Vehicle specification API integration
+* VIN decoder integration
+* Parts inventory management
+* Appointment scheduling
+* AI-assisted repair recommendations
+
+---
+
+## Project Status
+
+This project is currently being developed as part of the Software Engineering course.
