@@ -47,3 +47,12 @@ class RepairOrderFactory:
             created_date=str(date.today()),
             estimated_price=estimated_price
         )
+
+order = RepairOrderFactory.create_repair_order(
+    customer_id=1,
+    vehicle_id=1,
+    problem_description="Engine noise",
+    estimated_price=250.0
+)
+
+print(order)
