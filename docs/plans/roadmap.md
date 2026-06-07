@@ -119,3 +119,11 @@ Potential future improvements:
 * Service history analytics
 * AI-assisted repair recommendations
 * Appointment scheduling
+
+## Completed
+
+* Repair order creation
+* Vehicle selection
+* JSON persistence
+* Status tracking
+* Manager notes

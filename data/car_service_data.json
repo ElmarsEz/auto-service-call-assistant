@@ -1,0 +1,204 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "John",
+            "phone": "22331144"
+        },
+        {
+            "id": 2,
+            "name": "Mark",
+            "phone": "Sun"
+        },
+        {
+            "id": 3,
+            "name": "Mark",
+            "phone": "Sun"
+        },
+        {
+            "id": 4,
+            "name": "Victoria",
+            "phone": "Mistak"
+        },
+        {
+            "id": 5,
+            "name": "Casper The Ghost",
+            "phone": "66669999"
+        },
+        {
+            "id": 6,
+            "name": "Bob Bush",
+            "phone": "20012002"
+        },
+        {
+            "id": 7,
+            "name": "Silva S",
+            "phone": "99920013"
+        }
+    ],
+    "vehicles": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "brand": "Audi",
+            "model": "A4",
+            "engine": "1.9 TDI"
+        },
+        {
+            "id": 2,
+            "customer_id": 2,
+            "brand": "BMW",
+            "model": "330d",
+            "engine": "3.0 Diesel"
+        },
+        {
+            "id": 3,
+            "customer_id": 3,
+            "brand": "BMW",
+            "model": "330d",
+            "engine": "3.0 Diesel"
+        },
+        {
+            "id": 4,
+            "customer_id": 4,
+            "brand": "Toyota",
+            "model": "Avensis",
+            "engine": "2.0"
+        },
+        {
+            "id": 5,
+            "customer_id": 5,
+            "brand": "BMW",
+            "model": "320d",
+            "engine": "2.0 Diesel"
+        },
+        {
+            "id": 6,
+            "customer_id": 6,
+            "brand": "Volkswagen",
+            "model": "Passat",
+            "engine": "2.0 TDI"
+        },
+        {
+            "id": 7,
+            "customer_id": 7,
+            "brand": "Volkswagen",
+            "model": "Golf",
+            "engine": "2.0 TDI"
+        }
+    ],
+    "repair_orders": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "vehicle_id": 1,
+            "customer_name": "John",
+            "customer_phone": "22331144",
+            "brand": "Audi",
+            "model": "A4",
+            "engine": "1.9 TDI",
+            "problem_category": "Engine",
+            "problem_description": "tuk tuk",
+            "estimated_price": 30.0,
+            "status": "Waiting for Parts",
+            "created_date": "2026-06-07",
+            "manager_note": "motor kaput"
+        },
+        {
+            "id": 2,
+            "customer_id": 2,
+            "vehicle_id": 2,
+            "customer_name": "Mark",
+            "customer_phone": "Sun",
+            "brand": "BMW",
+            "model": "330d",
+            "engine": "3.0 Diesel",
+            "problem_category": "Cooling System",
+            "problem_description": "overheating",
+            "estimated_price": 160.0,
+            "status": "Completed",
+            "manager_note": "problem with air in system",
+            "created_date": "2026-06-07"
+        },
+        {
+            "id": 3,
+            "customer_id": 3,
+            "vehicle_id": 3,
+            "customer_name": "Mark",
+            "customer_phone": "Sun",
+            "brand": "BMW",
+            "model": "330d",
+            "engine": "3.0 Diesel",
+            "problem_category": "Cooling System",
+            "problem_description": "overheating",
+            "estimated_price": 160.0,
+            "status": "Cancelled",
+            "manager_note": "mistake",
+            "created_date": "2026-06-07"
+        },
+        {
+            "id": 4,
+            "customer_id": 4,
+            "vehicle_id": 4,
+            "customer_name": "Victoria",
+            "customer_phone": "Mistak",
+            "brand": "Toyota",
+            "model": "Avensis",
+            "engine": "2.0",
+            "problem_category": "Transmission",
+            "problem_description": "synhro dead",
+            "estimated_price": 660.0,
+            "status": "Completed",
+            "manager_note": "fixed synhro, call client tuesday",
+            "created_date": "2026-06-07"
+        },
+        {
+            "id": 5,
+            "customer_id": 5,
+            "vehicle_id": 5,
+            "customer_name": "Casper The Ghost",
+            "customer_phone": "66669999",
+            "brand": "BMW",
+            "model": "320d",
+            "engine": "2.0 Diesel",
+            "problem_category": "Exhaust System",
+            "problem_description": "too loud",
+            "estimated_price": 230.0,
+            "status": "Waiting for Parts",
+            "manager_note": "",
+            "created_date": "2026-06-07"
+        },
+        {
+            "id": 6,
+            "customer_id": 6,
+            "vehicle_id": 6,
+            "customer_name": "Bob Bush",
+            "customer_phone": "20012002",
+            "brand": "Volkswagen",
+            "model": "Passat",
+            "engine": "2.0 TDI",
+            "problem_category": "Body Work",
+            "problem_description": "rusted doors",
+            "estimated_price": 350.0,
+            "status": "Waiting for Parts",
+            "manager_note": "",
+            "created_date": "2026-06-07"
+        },
+        {
+            "id": 7,
+            "customer_id": 7,
+            "vehicle_id": 7,
+            "customer_name": "Silva S",
+            "customer_phone": "99920013",
+            "brand": "Volkswagen",
+            "model": "Golf",
+            "engine": "2.0 TDI",
+            "problem_category": "Brakes",
+            "problem_description": "change pads",
+            "estimated_price": 70.0,
+            "status": "In Progress",
+            "manager_note": "",
+            "created_date": "2026-06-07"
+        }
+    ]
+}

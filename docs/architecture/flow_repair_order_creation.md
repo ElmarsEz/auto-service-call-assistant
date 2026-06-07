@@ -1,26 +1,41 @@
-# Repair Order Creation Flow
+# Repair Order Management Flow
 
 ```mermaid
 flowchart TD
 
-A[Start] --> B[Service Manager Opens Repair Order Form]
-B --> C[Select Customer]
-C --> D[Select Vehicle]
-D --> E[Enter Problem Description and Estimated Price]
+    A[Customer Name]
+    B[Phone Number]
 
-E --> F[Send Data to RepairOrderFactory]
+    C[Vehicle Brand]
+    D[Vehicle Model]
+    E[Engine]
 
-F --> G{Input Valid?}
+    F[Problem Category]
+    G[Problem Description]
 
-G -->|No| H[Return Validation Error]
-H --> Z[End]
+    H[Create Repair Order]
 
-G -->|Yes| I[Create RepairOrder Object]
+    I[JSON Storage]
 
-I --> J[Set Default Status = New]
-J --> K[Return RepairOrder Object]
+    J[View Repair Orders]
 
-K --> L[Save Repair Order in Database]
-L --> M[Display Success Message]
+    K[Update Status]
+    L[Manager Notes]
 
-M --> Z[End]
+    A --> H
+    B --> H
+
+    C --> H
+    D --> H
+    E --> H
+
+    F --> H
+    G --> H
+
+    H --> I
+
+    I --> J
+
+    J --> K
+    J --> L
+```

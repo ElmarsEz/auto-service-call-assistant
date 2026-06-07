@@ -44,6 +44,14 @@ This allows workshop staff to quickly access vehicle information and monitor rep
 ---
 
 ## Core Features
+* Create repair orders
+* Customer information management
+* Vehicle brand, model and engine selection
+* Problem category selection
+* Repair order status tracking
+* Manager notes
+* Local JSON data storage
+
 
 ### Customer Management
 
@@ -60,9 +68,11 @@ This allows workshop staff to quickly access vehicle information and monitor rep
 ### Repair Order Management
 
 * Create repair orders
+* Select vehicle brand
+* Select vehicle model
+* Select engine type
+* Select expected problem category
 * Track repair status
-* Store repair descriptions
-* Record repair costs
 
 ### Search Functionality
 
@@ -76,7 +86,7 @@ This allows workshop staff to quickly access vehicle information and monitor rep
 
 * Python
 * Flask
-* SQLite
+* JSon
 * HTML/CSS
 * Bootstrap
 

@@ -20,6 +20,14 @@ Text color: #0F172A
 Error color: #DC2626  
 Success color: #16A34A  
 
+## UI Components
+
+- Customer Information Form
+- Vehicle Selection Form
+- Repair Order List
+- Status Management
+- Manager Notes
+
 ## Typography
 
 - Use clear and readable text
